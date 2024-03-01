@@ -1,9 +1,10 @@
 import re
-import requests
-from datetime import datetime
-import random
 import os
+import requests
+import random
 import subprocess
+from datetime import datetime
+
 
 # Building a dictionary of responses
 responses={
