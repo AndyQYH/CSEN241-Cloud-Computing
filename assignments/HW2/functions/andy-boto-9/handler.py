@@ -5,7 +5,6 @@ import random
 import subprocess
 from datetime import datetime
 
-
 # Building a dictionary of responses
 responses={
     'hello':	{
