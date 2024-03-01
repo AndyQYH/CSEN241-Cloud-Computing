@@ -1,0 +1,3 @@
+username: adminroot
+password: nFpxpFbF2nSOtbE5Gu6ruCjjX4uTHQZnxG9rnOR2ZKDfYDeTwcp5CeHm0VPX50c
+run openfaas: sudo cat /var/lib/faasd/secrets/basic-auth-password | faas-cli login --username admin --password-stdin

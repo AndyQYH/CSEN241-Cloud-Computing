@@ -1,0 +1,14 @@
+version: 1.0
+provider:
+  name: openfaas
+  gateway: http://127.0.0.1:8080
+functions:
+  andy-boto-9:
+    lang: python3
+    handler: ./andy-boto-9
+    image: aayahoo/andy-boto-9:latest
+    
+configuration:
+  copy:
+    - ./nltk
+

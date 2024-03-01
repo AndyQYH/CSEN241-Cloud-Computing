@@ -1,0 +1,5 @@
+hey \
+    -n 30 \
+    -c 5 \
+    -m POST \
+    -d "figlet CSEN241 WOW!" http://localhost:8080/async-function/andy-boto-9
